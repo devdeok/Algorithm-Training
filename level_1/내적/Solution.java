@@ -7,21 +7,12 @@ public class Solution{
 
     public int solution(int[] a, int[] b) {
         int answer = 1234567890;
-
-        
-
-
-
+        for(int i=0;i<a.length;i++){
+            answer = answer + (a[i]*b[i]);
+        }
         System.out.println(answer);
         
         return answer;
-    }
-
-
-    public static void public static void main(String[] args) {
-        int answer = 123;
-
-        System.out.println(answer);
     }
 }
 
