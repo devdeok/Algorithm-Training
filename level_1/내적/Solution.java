@@ -10,8 +10,6 @@ public class Solution{
         for(int i=0;i<a.length;i++){
             answer = answer + (a[i]*b[i]);
         }
-        System.out.println(answer);
-        
         return answer;
     }
 }
