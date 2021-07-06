@@ -6,12 +6,13 @@ public class Solution{
     boolean[] signs = {true,false,true};
 
     public int solution(int[] absolutes, boolean[] signs) {
-        int answer = 1234567890;
-        
+        int answer = 0;
+        for(int i=0;i<absolutes.length;i++){
+            if(!signs[i]){
+                absolutes[i] = -absolutes[i];
+            }
+            answer += absolutes[i];
+        }
         return answer;
-    }
-
-    public static void main(String[] args) {
-        
     }
 }
