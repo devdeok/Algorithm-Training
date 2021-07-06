@@ -6,22 +6,13 @@ public class Solution{
     int[] b = {-3,-1,0,2};
 
     public int solution(int[] a, int[] b) {
-        int answer = 1234567890;
-
-        
-
-
-
-        System.out.println(answer);
-        
+        int answer = 0;
+        for(int i=0;i<a.length;i++){
+            answer = answer + (a[i]*b[i]);
+        }
         return answer;
     }
-
-
-    public static void public static void main(String[] args) {
-        int answer = 123;
-
-        System.out.println(answer);
-    }
 }
+
+
 
