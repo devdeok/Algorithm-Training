@@ -1,4 +1,4 @@
-package level_2;
+package level_2.단체사진_찍기;
 
 public class Solution {
     int n;

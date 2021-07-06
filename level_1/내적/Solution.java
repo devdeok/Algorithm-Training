@@ -1,4 +1,4 @@
-package level_1;
+package level_1.내적;
 
 // 내적
 public class Solution{
