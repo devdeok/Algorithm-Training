@@ -2,9 +2,7 @@ package Hash.전화번호목록;
 
 import java.util.HashMap;
 
-class Solution_2{    
-    String[] phone_book={"123","456","789"}; //true;
-    //{"119", "97674223", "1195524421"}; // false
+class Solution_2{
 
     public boolean solution(String[] phone_book) {
         HashMap<String, Integer> map = new HashMap<>();
@@ -20,7 +18,6 @@ class Solution_2{
                 }
             }
         }
-        
         return true;
     }
 }
