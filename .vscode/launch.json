@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution_2",
+            "request": "launch",
+            "mainClass": "Hash.전화번호목록.Solution_2",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution_1",
+            "request": "launch",
+            "mainClass": "Hash.전화번호목록.Solution_1",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Hash.전화번호목록.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
