@@ -30,8 +30,7 @@ public class Solution {
 
     // 순열
     public static void permutation(String prefix, String str, HashSet<Integer> set){
-        int n = str.length();  
-        // System.out.println(prefix);
+        int n = str.length();
 
         if(!prefix.equals("")){ // 접두사가 ""이 아니면 set에 Integer형으로 추가
             set.add(Integer.valueOf(prefix));
@@ -41,6 +40,7 @@ public class Solution {
             permutation(prefix+str.charAt(i),
                         str.substring(0, i)+str.substring(i+1, n),
                         set);
+            
         }
     }
 
