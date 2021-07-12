@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Solution",
             "request": "launch",
+            "mainClass": "정렬.H_Index.Solution",
+            "projectName": "Programmers_1b559e77"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
             "mainClass": "정렬.가장_큰_수.Solution",
             "projectName": "Programmers_76d62c8b"
         },
