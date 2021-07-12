@@ -6,13 +6,10 @@ public class Solution{
         int sum = brown + yellow;
         int n;
 
-        answer[0] = 3;
-        answer[1] = 3;
-
         for(int i=3; i<=sum;i++){
             if(sum%i==0){
                 n=sum/i;
-                if((i-2)*(n-2)==yellow && n>i) return new int[]{n,i};
+                if((i-2)*(n-2)==yellow && n>=i) return new int[]{n,i};
             }
         }
         return answer;
