@@ -36,9 +36,7 @@ public class Solution {
                     arr = new int[size];
             }
 
-            for(int y=swipes[x][]){
 
-            }
             
             
 
