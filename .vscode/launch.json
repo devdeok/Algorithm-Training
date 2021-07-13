@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Launch Solution",
             "request": "launch",
+            "mainClass": "kakaopay_2021.p2.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "kakaopay_2021.p1.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "정렬.H_Index.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
             "mainClass": "정렬.가장_큰_수.Solution",
             "projectName": "Programmers_76d62c8b"
         },
