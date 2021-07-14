@@ -36,10 +36,6 @@ public class Solution {
                     arr = new int[size];
             }
 
-
-            
-            
-
             // 해당 index의 result값
             for(int arg : arr) answer[x] += arg;
         }

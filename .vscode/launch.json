@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Solution",
             "request": "launch",
+            "mainClass": "DFS_BFS.타겟넘버.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
             "mainClass": "kakaopay_2021.p2.Solution",
             "projectName": "Programmers_76d62c8b"
         },
