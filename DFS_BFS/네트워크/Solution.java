@@ -1,12 +1,5 @@
 package DFS_BFS.네트워크;
 
-/**
- * 1. 연결된 경우를 확인하기 위한 boolean visited 생성
- * 2. dfs 실행 전 네트워크의 수 증가
- * 3. 모든 노드에 대해 dfs 실행 (단, 방문했던 경우는 제외. 연결된 곳 포함)
- * 4. 노드 방문 표시
- * 5. 해당 노드에서 다른 노드로 연결된게 있는지 전체 탐색. 있는 경우 dfs 호출
- */
 public class Solution {
     public int solution(int n, int[][] computers) {
         int answer = 0; 
@@ -14,11 +7,12 @@ public class Solution {
 
         for(int i=0; i<n; i++){
             if(!visited[i]){
+                // dfs를 통해 다음 for문이 돌기 전에 네트워크가 연결된 노드를 방문 처리한다.
                 dfs(computers, visited, i);
+                // 위 dfs에서 재귀호출을 통해 연결된 네트워크가 처리되어 있으므로 네트워크 개수만 카운팅 된다.
                 answer++;
             }
         }
-
         return answer;
     }
 
@@ -27,16 +21,17 @@ public class Solution {
         if(!visited[i]) visited[i] = true;
         
         for(int j=0; j<computers.length; j++){
-            if(i!=j && visited[j]==false && computers[i][j]==1){
+            // 자기 자신이 아님 && 해당 노드를 방문하지 않았음 && 네트워크가 연결되어 있음
+            if(i!=j && visited[j]==false && computers[i][j]==1)
+                // 재귀 호출을 통해 네트워크 연결을 확인하여 방문 처리함
                 dfs(computers, visited, j);
-            }
         }
     }
 
     public static void main(String[] args) {
         Solution s = new Solution();
         int n = 3; 
-        int[][] computers = {{1,1,0}, {1,1,0}, {0,0,1}};
+        int[][] computers = {{1,1,0}, {1,1,1}, {0,1,1}};
 
         System.out.println(s.solution(n, computers));
     }
