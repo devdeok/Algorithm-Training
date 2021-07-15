@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "DFS_BFS.네트워크.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
             "name": "Launch Test",
             "request": "launch",
             "mainClass": "DFS_BFS.타겟넘버.Test",

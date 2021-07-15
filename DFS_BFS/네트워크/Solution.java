@@ -9,20 +9,28 @@ package DFS_BFS.네트워크;
  */
 public class Solution {
     public int solution(int n, int[][] computers) {
-        int answer = 0;
+        int answer = 0; 
+        boolean[] visited = new boolean[n];
 
         for(int i=0; i<n; i++){
-            dfs(computers, n, i);
-
+            if(!visited[i]){
+                dfs(computers, visited, i);
+                answer++;
+            }
         }
-        
+
         return answer;
     }
 
-    void dfs(int[][] computers, int n, int i){
-
-
-
+    void dfs(int[][] computers, boolean[] visited, int i){
+        // 해당 노드가 방문하지 않은 노드라면 true를 넣어준다.
+        if(!visited[i]) visited[i] = true;
+        
+        for(int j=0; j<computers.length; j++){
+            if(i!=j && visited[j]==false && computers[i][j]==1){
+                dfs(computers, visited, j);
+            }
+        }
     }
 
     public static void main(String[] args) {
