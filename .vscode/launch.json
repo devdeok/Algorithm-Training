@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Solution",
             "request": "launch",
+            "mainClass": "level_2.오픈채팅방.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
             "mainClass": "Heap.더_맵게.Solution",
             "projectName": "Programmers_76d62c8b"
         },
