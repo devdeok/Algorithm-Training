@@ -10,7 +10,7 @@ class Solution{
         String[][] temp = new String[record.length][];
         Map<String, String> uidName = new HashMap<>();
 
-        // 2차원 배열에 각 문자열을 삽입
+        // 2차원 배열에 각 문자열을 삽입하면서 uid와 name을 매핑
         for(int i=0; i<record.length; i++){
             temp[i] = record[i].split(" ");
             
@@ -23,8 +23,6 @@ class Solution{
         for(int i=0; i<record.length; i++){
             if(temp[i][0].equals("Enter"))
                 answer.add(uidName.get(temp[i][1])+"님이 들어왔습니다.");
-
-
             else if(temp[i][0].equals("Leave"))
                 answer.add(uidName.get(temp[i][1])+"님이 나갔습니다.");
         }
