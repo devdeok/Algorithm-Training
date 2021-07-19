@@ -8,8 +8,62 @@
             "type": "java",
             "name": "Launch Solution",
             "request": "launch",
+<<<<<<< HEAD
             "mainClass": "정렬.H_Index.Solution",
             "projectName": "Programmers_1b559e77"
+=======
+            "mainClass": "level_2.오픈채팅방.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Heap.더_맵게.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "DFS_BFS.네트워크.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "DFS_BFS.타겟넘버.Test",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "DFS_BFS.타겟넘버.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "kakaopay_2021.p2.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "kakaopay_2021.p1.Solution",
+            "projectName": "Programmers_76d62c8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "정렬.H_Index.Solution",
+            "projectName": "Programmers_76d62c8b"
+>>>>>>> 6174d104750c6f90dea0fed97f2a05e894f15226
         },
         {
             "type": "java",
