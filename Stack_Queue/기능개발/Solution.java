@@ -15,7 +15,6 @@ public class Solution {
 
         // 비교할 변수
         int temp = (int)Math.ceil((double)stack.peek()/(double)speeds[0]);
-
         for(int i=0;i<progresses.length;i++){    
             if(temp >= (int)Math.ceil((double)stack.peek()/(double)speeds[i])){
                 cnt++;
