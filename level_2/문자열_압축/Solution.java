@@ -1,7 +1,5 @@
 package level_2.문자열_압축;
 
-import jdk.tools.jlink.internal.SymLinkResourcePoolEntry;
-
 public class Solution {
     public int solution(String s) {
         // 길이 1짜리 문자열 처리
