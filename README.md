@@ -6,7 +6,7 @@
 ## Contents
 
 <details><summary>Programmers</summary>
-  https://github.com/redeok2/Algorithm-Training/tree/master/Programmers/level_1
+  
 * [Level 1](https://github.com/redeok2/Algorithm-Training/tree/master/Programmers/level_1)
 * [Level 2](https://github.com/redeok2/Algorithm-Training/tree/master/Programmers/level_2)
 * [Hash](https://github.com/redeok2/Algorithm-Training/tree/master/Programmers/Hash)
