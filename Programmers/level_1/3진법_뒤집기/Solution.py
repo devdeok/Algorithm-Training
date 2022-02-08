@@ -8,11 +8,12 @@ def solution(n):
 
     ternary.append(n)
     ternary.reverse()
+    
     num = 0
     for i in ternary :
         answer += i*pow(3,num)
         num+=1
-        
+
     return answer
 
 n = 45 # 7

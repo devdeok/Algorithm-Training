@@ -22,3 +22,4 @@ N = 4
 stages = [4,4,4,4,4]
 
 print(solution(N,stages))
+
