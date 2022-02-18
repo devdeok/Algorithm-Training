@@ -10,7 +10,10 @@ def solution(lottos, win_nums):
     print(zero_count,correct)
 
     if correct < 2 : # 맞은 개수가 1,0일 경우
-        answer.append(7-(correct+zero_count)) # 최고
+        if zero_count == 0 and correct == 0:
+            answer.append(6)
+        else : 
+            answer.append(7-(correct+zero_count)) # 최고
         answer.append(6) # 최저
     else : # 맞은 개수가 2이상
         answer.append(7-(correct+zero_count)) # 최고
