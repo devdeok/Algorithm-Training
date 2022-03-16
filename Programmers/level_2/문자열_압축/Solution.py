@@ -1,7 +1,7 @@
 def solution(s):
     result = len(s) # 문자열의 길이가 최대값
 
-    # 길이 1짜리 문자열 처리    
+    # 길이 1짜리 문자열 처리
     if len(s) == 1 :
         return 1
 
@@ -13,10 +13,10 @@ def solution(s):
 
         # 비교 시작
         for j in range(i, len(s), i) : 
-            if comp==s[j:i+j] : # 문자열이 같을 경우 횟수 증가
-                count += 1
+            if comp==s[j:i+j] : # 비교문자열과 다음 문자열이 같을 경우
+                count += 1 # 횟수 증가
             else : # 문자열이 다를 경우
-                if count != 1 : # 횟수가 2이상이면 
+                if count != 1 : # 횟수가 2이상이면
                     temp_str += str(count) + comp # 횟수 + 비교문자열을 더해줌
                 else : # 횟수가 1일 경우
                     temp_str += comp # 비교문자열만 더함
@@ -27,7 +27,7 @@ def solution(s):
 
         if count != 1 :
             temp_str += str(count) + comp
-        else : 
+        else :
             temp_str += comp
             
         print("i 문자열 : ",temp_str," 단위 : ",i)
