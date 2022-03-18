@@ -27,7 +27,7 @@ tree = {}
 for i in range(n) :
     root, left, right = input().split()
     tree[root] = [left,right]
-    
+
 preorder('A')
 print()
 inorder('A')
