@@ -14,7 +14,7 @@ import sys
 sys.stdin = open(r"C:\Users\DEOK\Desktop\Github\Programmers\Backjoon\Graph\1012\input.txt","r")
 # 테스트 케이스 개수
 t = int(input())
-
+sys.setrecursionlimit(10**6)
 # 테스트 케이스만큼 실행
 for _ in range(t) : 
     cnt = 0
